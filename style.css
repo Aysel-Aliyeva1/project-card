@@ -1,0 +1,101 @@
+* {
+  font-family: Tahoma, sans-serif;
+}
+body {
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(250, 138, 157),
+    rgb(250, 138, 157),
+    rgb(250, 138, 157),
+    rgb(250, 138, 242),
+    rgb(197, 42, 197)
+  );
+  background-attachment: fixed;
+}
+.blue,
+img {
+  width: 350px;
+  height: 150px;
+  border-radius: 20px;
+  
+}
+.round {
+  position: absolute;
+  box-shadow: 0 0 15px;
+  width: 130px;
+  height: 130px;
+  left: 110px;
+  top: 85px;
+  border-radius: 50%;
+}
+.pcard {
+  width: 350px;
+  height: 560px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 22px;
+  margin: auto;
+  margin-top: 100px;
+  position: relative;
+  border-radius: 20px;
+}
+.morgan {
+  text-shadow: 0 0 1px;
+  font-style: bold;
+  font-size: 26px;
+  position: absolute;
+  left: 80px;
+  top: 238px;
+  color: rgb(58, 58, 58);
+}
+.antcol {
+  color: gray;
+  font-size: 15px;
+  position: absolute;
+  left: 135px;
+  top: 275px;
+}
+div.left,
+div.right {
+  position: absolute;
+  bottom: 160px;
+  text-align: center;
+  line-height: 20px;
+}
+div.left {
+  left: 70px;
+}
+div.right {
+  right: 70px;
+}
+.num {
+  color: rgb(0, 128, 255);
+  font-size: 30px;
+  text-shadow: 0 0 1px rgb(0, 128, 255);
+  margin-bottom: 15px;
+}
+.wrd {
+  color: gray;
+  font-size: 13px;
+  margin-top: 5px;
+}
+button {
+  border: none;
+  position: absolute;
+  color: rgb(44, 44, 18);
+  background-color: rgb(255, 230, 0);
+  bottom: 90px;
+  left: 40px;
+  width: 280px;
+  bottom: 100px;
+  height: 45px;
+  border-radius: 25px;
+  box-shadow: 0 0 1px rgb(65, 65, 39);
+}
+.footer {
+  position: absolute;
+  color: rgb(55, 55, 55);
+  left: 40px;
+  right: 40px;
+  bottom: 30px;
+  font-size: 15px;
+}
